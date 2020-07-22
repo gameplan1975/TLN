@@ -47,6 +47,7 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQGDVjuZ5pufBKPsAwxOUC4I0flBOaKG
 
 - カタログ設計書
 - テーブル設定書
+- ER図
 - 画面遷移図
 - ワイヤーフレーム
 
