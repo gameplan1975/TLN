@@ -1,6 +1,7 @@
 <h1>Time Line Network </h1>
 <p>Top</P>
 <% if user_signed_in? %>
+  <%= link_to "ジャンル一覧", genres_path %>
   <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
   <% else %>
   <%= link_to "新規登録", new_user_registration_path %>
