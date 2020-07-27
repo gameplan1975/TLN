@@ -12,7 +12,10 @@ Ruby 2.6.5 / Ruby on rails 5.2.4
 今後、バナー広告による収益化を目指します。（好みのジャンルが設定できるためクライアントに訴求しやすい）
 
 ## 使用する課題
-devise, AWE, 非同期処理
+devise（ログイン機能）, ajaxによる非同期通信（コメント機能）, AWSへのデプロイ（可能であれば）
+
+## 使用する課題外の内容
+audiojs-rails（効果音、BGM）
 
 ## 機能一覧
 詳細は下記カタログ設計書を参照
@@ -25,7 +28,6 @@ devise, AWE, 非同期処理
 - クイズ難易度調整機能
 - クイズ回答機能b案
 - クイズ判定機能
-- クイズ反復機能
 - クイズジャンル選択機能
 - ユーザー登録機能
 - ユーザー編集機能
@@ -36,11 +38,8 @@ devise, AWE, 非同期処理
 - ログイン機能
 - ログアウト機能
 - 掲示板機能
-- 広告表示機能
 - 効果音
 - bgm
-- ゲストユーザー機能
-- 制限時間機能
 
 ## 仕様書
 https://docs.google.com/spreadsheets/d/e/2PACX-1vQGDVjuZ5pufBKPsAwxOUC4I0flBOaKGsLwbPS9YPagnmNT1Z2VkjAGQZv-tqTDm7ZrkXw7hLmNR_5D/pubhtml
@@ -52,5 +51,9 @@ https://docs.google.com/spreadsheets/d/e/2PACX-1vQGDVjuZ5pufBKPsAwxOUC4I0flBOaKG
 - ワイヤーフレーム
 
 ## 使用予定gem
+- Audiojs-rails
 - honoka(bootstrap)
 - devise
+- kaminari
+- jquery
+など
