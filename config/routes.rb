@@ -3,8 +3,9 @@ Rails.application.routes.draw do
     sessions: 'users/sessions',
     registrations: 'users/registrations'
   }
-  resources :quizes
+  resources :questions
   resources :users
   resources :genres
-  root to:"quizes#top"
+  resources :players
+  root to: "players#top"
 end

@@ -2,10 +2,10 @@
 
 <% @genres.each do |genre| %>
   <div>
-    <td><%= genre.name %></td>
-    <td><%= link_to 'Edit', edit_genre_path(genre) %></td>
-    <td><%= link_to 'Destroy', genre, method: :delete %></td>
+    <%= genre.name %>
+    <%= link_to 'Edit', edit_genre_path(genre) %>
+    <%= link_to 'Destroy', genre, method: :delete %>
   </div>
 <% end %>
-
+<br>
 <%= link_to 'New genre', new_genre_path %>

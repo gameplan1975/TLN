@@ -14,7 +14,6 @@ class GenresController < ApplicationController
   
   def create
     @genre = Genre.new(genre_params)
-  
     if @genre.save
       redirect_to genres_url
     else

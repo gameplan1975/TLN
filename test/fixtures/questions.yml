@@ -3,11 +3,11 @@
 one:
   name: MyString
   memo: MyString
-  accurual_date: 2020-07-24
   playable: false
+  accurual_date: 2020-07-24
 
 two:
   name: MyString
   memo: MyString
-  accurual_date: 2020-07-24
   playable: false
+  accurual_date: 2020-07-24

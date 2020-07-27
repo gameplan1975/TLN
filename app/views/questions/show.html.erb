@@ -1,0 +1,7 @@
+<h1>Show Question</h1>
+<%= @question.name %>
+<%= @question.accrual_date %>
+<%= @question.memo %>
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>
